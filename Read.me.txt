@@ -1,0 +1,9 @@
+First let install Erlang and rabbitMQ(supported version of Erlang)
+For the configuration you are can use this pages.
+https://www.rabbitmq.com/install-windows-manual.html
+https://www.rabbitmq.com/install-windows.html
+https://www.erlang.org/patches/otp-24.0
+
+After installied cmd run as administrator then let this commands
+  rabbitmq-plugins enable rabbitmq_management
+  rabbitmq-service start
